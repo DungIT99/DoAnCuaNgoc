@@ -1,0 +1,12 @@
+.caretpage{
+	width: 900px;
+}
+.product-caret{
+	border: 1px solid #eee;
+	margin: 10px;
+	padding: 0;
+	padding-right: 5px;
+}
+.caretpage .row .list-group .list-group-item .row .col-xs-7 .media{
+	margin-top: 15px;
+}
