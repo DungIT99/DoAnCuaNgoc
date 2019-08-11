@@ -387,4 +387,42 @@ td{
 	bottom: 5px;
 	left: 5px;
 }
-		
+@media only screen and (max-width:1100px) and (min-width:768px){
+	
+	.menu .container .nav li .uppercase {
+		font-size: 10px;
+	
+	}
+	.menu .container .nav{
+		display: flex
+	}
+	.glyphicon-phone , .fa-laptop ,.fa-apple-alt ,.fa-tablet-alt ,.fa-tablet-alt ,.fa-headphones-alt ,.fa-undo-alt
+	,.fa-sim-card , .fa-gifts ,.fa-piggy-bank {
+		display: none;
+	}
+	nav.navbar.navbar-inverse.menu {
+		margin: 0 auto;
+		width: 100;
+	}
+	.row .navbar-nav{
+		margin-left: 50px
+	
+	}
+	.menu .container .nav li .uppercase {
+		padding-right: 9px;
+	}
+	.row.mt-3 {
+		display: flex;
+	}
+	.header .container .row .col-md-2 .cart a p {
+		font-size: 9px;
+	}
+}
+@media only screen and (max-width:768px){
+	.header .container .row .col-md-2 .cart a p {
+		font-size: 9px;
+	}
+	
+
+}
+
