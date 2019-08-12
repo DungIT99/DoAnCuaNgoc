@@ -392,6 +392,12 @@ td{
     display: none;
 
 }
+.menu-togger{
+  background:white;
+  padding-left: 8px;
+  /* text-transform: uppercase */
+ 
+}
 @media only screen and (max-width:1199px) and (min-width:1100px) {
 	.glyphicon-phone , .fa-laptop ,.fa-apple-alt ,.fa-tablet-alt ,.fa-tablet-alt ,.fa-headphones-alt ,.fa-undo-alt
 	,.fa-sim-card , .fa-gifts ,.fa-piggy-bank {
