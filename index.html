@@ -2,16 +2,17 @@
 <html ng-app="myapp" ng-controller="myctrl">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<meta name="viewport" content="width=device-width"> -->
 	<title>Tinykullshop | Chuyên phụ kiện điện thoại</title>
 	<!-- Local bootstrap CSS & JS -->
 	<link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
 	<link rel="stylesheet" media="screen" href="css/bootstrap-theme.min.css">
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'>	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" media="screen" href="css/mystyle.css">
 	<link rel="stylesheet" media="screen" href="css/toppage.css">
 	<link rel="stylesheet" media="screen" href="css/modal-login.css">
+	
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/angular.min.js"></script>
@@ -21,35 +22,36 @@
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			<div class="row">
+			<div class="row " >
 				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 					<a href="home.html" title=""><img src="images/logo1.png" alt="" class="img-responsive"></a>
 				</div>
 				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 row">
 					<div>
 						<div class="form-inline search-btn">
-							<input type="search" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm">		
+							<input type="search" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Tìm kiếm...">		
 							<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 a">
 						<div class="cart">
 							<a href="new.html"><span class="glyphicon glyphicon-comment"></span><p>Thông tin hay</p></a>
 						</div>
-					</div><div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					</div><div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 a">
 						<div class="cart">
 							<a href="caret.html"><span class="glyphicon glyphicon-shopping-cart"></span><p>Giỏ hàng</p></a>
 						</div>
 					</div>
+					<div><i class="fas fa-bars"></i></div>
 				</div>
 			</div>
 		</div>	
 	</header><!-- /header -->
 	<nav class="navbar navbar-inverse menu">
 		<div class="container">
-			<div class="row">
+			<div class=" row header_nav" >
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
 						<a class="uppercase"  href="product-phone.html"><i class="glyphicon glyphicon-phone"></i> điện thoại</a>
@@ -481,8 +483,8 @@
 					<li>
 						<a class="uppercase" href="#"><i class="fas fa-gifts"></i> khuyến mãi</a>
 					</li>
-					<li>
-						<a class="uppercase" href="#"><i class="fas fa-piggy-bank"></i> trả góp</a>
+					<li class ="traGop">
+						<a class="uppercase " href="#"><i class="fas fa-piggy-bank"></i> trả góp</a>
 					</li>
 					<li class="dropdown navbar-right user-btn">
 						<a href="#" class="dropdown-toggle uppercase" data-toggle="dropdown"><i class="fas fa-user"></i><b class="caret"></b></a>

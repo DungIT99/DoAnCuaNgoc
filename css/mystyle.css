@@ -86,7 +86,7 @@ body{
 	animation-name: example2;
   	animation-duration: 0.5s;
 }
-@-webkit-keyframes example {
+/* @-webkit-keyframes example {
   0%   {right:50px; top:70px;}
   100% {right:50px; top:50px;}
 }
@@ -102,7 +102,7 @@ body{
 }@-webkit-keyframes example4 {
   0%   {right:50px; top:70px;}
   100% {right:50px; top:50px;}
-}
+} */
 .dropdown-content {
 	display: none;
 	width: 1140px;
@@ -387,42 +387,368 @@ td{
 	bottom: 5px;
 	left: 5px;
 }
-@media only screen and (max-width:1100px) and (min-width:768px){
+.fas.fa-bars ,.continue {
+
+    display: none;
+
+}
+@media only screen and (max-width:1199px) and (min-width:1100px) {
+	.glyphicon-phone , .fa-laptop ,.fa-apple-alt ,.fa-tablet-alt ,.fa-tablet-alt ,.fa-headphones-alt ,.fa-undo-alt
+	,.fa-sim-card , .fa-gifts ,.fa-piggy-bank {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:1100px) and (min-width:993px) {
 	
 	.menu .container .nav li .uppercase {
-		font-size: 10px;
+		font-size: 12px;
 	
 	}
-	.menu .container .nav{
-		display: flex
+	.user-btn i, b {
+
+		position: relative;
+		font-size: 18px;
+		bottom: 5px;
+		left: 5px;
+	
 	}
 	.glyphicon-phone , .fa-laptop ,.fa-apple-alt ,.fa-tablet-alt ,.fa-tablet-alt ,.fa-headphones-alt ,.fa-undo-alt
 	,.fa-sim-card , .fa-gifts ,.fa-piggy-bank {
 		display: none;
 	}
-	nav.navbar.navbar-inverse.menu {
-		margin: 0 auto;
-		width: 100;
+	
+}
+@media only screen and (max-width:992px)and (min-width:991px){
+	
+	.glyphicon-phone , .fa-laptop ,.fa-apple-alt ,.fa-tablet-alt ,.fa-tablet-alt ,.fa-headphones-alt ,.fa-undo-alt
+	,.fa-sim-card , .fa-gifts ,.fa-piggy-bank {
+		display: none;
 	}
-	.row .navbar-nav{
-		margin-left: 50px
+	.user-btn i, b {
+
+		position: relative;
+		font-size: 18px;
+		bottom: 5px;
+		left: 5px;
 	
 	}
 	.menu .container .nav li .uppercase {
-		padding-right: 9px;
+		font-size: 12px;
+	
 	}
-	.row.mt-3 {
-		display: flex;
+	.mt-3{
+		display: flex
 	}
-	.header .container .row .col-md-2 .cart a p {
-		font-size: 9px;
+
+	.col-sm-4 {
+
+		width: 49.333%;
+	
 	}
 }
-@media only screen and (max-width:768px){
-	.header .container .row .col-md-2 .cart a p {
-		font-size: 9px;
+
+@media only screen and (max-width:991px) and (min-width:592px){
+	nav.navbar.navbar-inverse.menu {
+		display: none;
 	}
+	.fas.fa-bars ,.continue {
+
+		display: block;
+		color: white;
+		font-size: 27px;
+		float: right;
+	
+	}
+	i.fas.fa-bars {
+		margin-top: 10px;
+	}
+	.header {
+		display: block;
+	    background: brown;
+		padding-top: 15px;
+	}
+	.col-xs-6.col-sm-6.col-md-6.col-lg-6.a {
+		display: none
+	}
+	header#header {
+		margin-bottom: 2%;
+		padding-bottom: 2%;
+	}
+	.top {
+		display: none;
+	}
+	.main .container .col-md-8 .carousel .carousel-inner .item img {
+		height: 254px;
+	}
+
+	
+	.user-btn i, b {
+
+		position: relative;
+		font-size: 14px;
+		bottom: 5px;
+		left: 5px;
+	
+	}
+	
+	
+	.mt-3{
+		display: flex
+	}
+	.panel-body {
+		display: none;
+	}
+	.form-inline.search-btn {
+		display: flex;
+	}
+	.header .container .row .col-md-8 .search-btn input {
+		
+		margin-right: 5px;
+	}
+	.col-xs-2 {
+
+		width: 24.667%;
+	
+	}
+	.col-xs-8 {
+
+		width: 53.667%;
+	
+	}
+	.col-xs-3 {
+
+		width: 50%;
+	
+	}
+	.col-xs-4 {
+
+		width: 48.333%;
+	
+	}
+
 	
 
 }
+@media only screen and (max-width:591px)and (min-width:532px) {
+	nav.navbar.navbar-inverse.menu {
+		display: none;
+	}
+	.fas.fa-bars ,.continue {
+
+		display: block;
+		color: white;
+		font-size: 27px;
+		float: right;
+	
+	}
+	i.fas.fa-bars {
+		margin-top: 10px;
+	}
+	.header {
+		display: block;
+	    background: brown;
+		padding-top: 15px;
+	}
+	.col-xs-6.col-sm-6.col-md-6.col-lg-6.a {
+		display: none
+	}
+	header#header {
+		margin-bottom: 2%;
+		padding-bottom: 2%;
+	}
+	.top {
+		display: none;
+	}
+	.main .container .col-md-8 .carousel .carousel-inner .item img {
+		height: 254px;
+	}
+
+	
+	.user-btn i, b {
+
+		position: relative;
+		font-size: 14px;
+		bottom: 5px;
+		left: 5px;
+	
+	}
+	
+	
+	.mt-3{
+		display: flex
+	}
+	.panel-body {
+		display: none;
+	}
+	.form-inline.search-btn {
+		display: flex;
+	}
+	.header .container .row .col-md-8 .search-btn input {
+		
+		margin-right: 5px;
+	}
+	.col-xs-2 {
+
+		width: 26.667%;
+	
+	}
+	.col-xs-8 {
+
+		width: 50.667%;
+	
+	}
+	.col-xs-3 {
+
+		width: 50%;
+	
+	}
+	.col-xs-4 {
+		width: 48.333%;
+	}
+	.row.mt-3 {
+		font-size: 11px;
+	}
+
+	.header .container .row .col-md-2 .img-responsive {
+	
+		width: 150px;
+		height: 34px;
+	
+	}
+
+}
+@media only screen and (max-width:531px) {
+	nav.navbar.navbar-inverse.menu {
+		display: none;
+	}
+	.fas.fa-bars ,.continue {
+
+		display: block;
+		color: white;
+		font-size: 27px;
+		float: right;
+	
+	}
+	i.fas.fa-bars {
+		margin-top: 10px;
+	}
+	.header {
+		display: block;
+	    background: brown;
+		padding-top: 15px;
+	}
+	.col-xs-6.col-sm-6.col-md-6.col-lg-6.a {
+		display: none
+	}
+	header#header {
+		margin-bottom: 2%;
+		padding-bottom: 2%;
+	}
+	.top {
+		display: none;
+	}
+	.main .container .col-md-8 .carousel .carousel-inner .item img {
+		height: 254px;
+	}
+
+	
+	.user-btn i, b {
+
+		position: relative;
+		font-size: 14px;
+		bottom: 5px;
+		left: 5px;
+	
+	}
+	
+	
+	.mt-3{
+		display: flex
+	}
+	.panel-body {
+		display: none;
+	}
+	.form-inline.search-btn {
+		display: flex;
+	}
+	.header .container .row .col-md-8 .search-btn input {
+		
+		margin-right: 5px;
+	}
+	.col-xs-2 {
+
+		width: 28.667%;
+	
+	}
+	.col-xs-8 {
+
+		width: 46.667%;
+	
+	}
+	.col-xs-3 {
+
+		width: 50%;
+	
+	}
+	.col-xs-4 {
+		width: 48.333%;
+	}
+	.row.mt-3 {
+		font-size: 11px;
+	}
+	.header .container .row .col-md-2 .img-responsive {
+
+		width: 150px;
+		height: 36px;
+		margin-top: 3px;
+	
+	}
+	.main .container .col-md-8 .carousel .carousel-inner .item img {
+
+		height: 232px;
+	
+	}
+	#input {
+
+		font-size: 11px;
+	
+	}
+
+}
+@media only screen and (max-width:400px) {
+	.main .container .col-md-8 .carousel .carousel-inner .item img {
+
+		height: 187px;
+	
+	}
+	.bottom-cal {
+
+		font-size: 12px;
+	}
+		.col-xs-4 {
+
+			width: 100%;
+		
+		}
+		.header .container .row .col-md-2 .img-responsive {
+
+			width: 150px;
+			height: 31px;
+			margin-top: 4px;
+		
+		}
+		#input {
+
+			font-size: 10px;
+		
+		}
+	
+	h3 {
+
+		font-size: 20px;
+	
+	}
+}
+
 
